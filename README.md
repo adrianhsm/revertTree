@@ -9,5 +9,10 @@ Output:
 ```
 Usage:
 ```
+    webpacked version:
     node webpacked/findResponsibility.js --json [json path, for example, test/Projects.mymind] --dst [output path, for example, test/Projects.xls]
+    
+    non-webpacked version:
+    npm i 
+    node src/revert.js --json [json path, for example, test/Projects.mymind] --dst [output path, for example, test/Projects.xls]
 ```
